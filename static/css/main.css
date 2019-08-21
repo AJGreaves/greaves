@@ -7,10 +7,12 @@ body {
   font-family: "Vidaloka", serif;
   text-align: center;
   font-size: 4rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 .sub-heading {
   text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 .heading {
@@ -29,6 +31,7 @@ button,
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  color: #fff;
 }
 
 #skills h3 {
@@ -41,6 +44,22 @@ h2 {
 
 h4.heading {
   font-size: 2rem;
+}
+
+.text-shadow {
+  text-shadow: 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+  font-family: "Vidaloka", serif;
+  color: #438796;
+  font-style: italic;
+}
+
+#strengths h4 {
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
+  font-size: 2.5rem;
 }
 
 #download-cv-button {
@@ -178,6 +197,18 @@ td {
   color: #77ccdf;
 }
 
+.fa-quote-right {
+  padding-left: 0.75rem;
+}
+
+.fa-quote-left {
+  padding-right: 0.75rem;
+}
+
+i {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
+}
+
 .container,
 .container-fluid,
 .row {
@@ -232,6 +263,19 @@ html {
 
 #profile {
   text-align: center;
+}
+
+#strengths {
+  background-image: url("../images/backgrounds/connect.jpg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.strengths-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .strength {

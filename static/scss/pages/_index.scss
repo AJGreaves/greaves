@@ -58,6 +58,19 @@ html {
     text-align: center;
 }
 
+#strengths {
+    background-image: url('../images/backgrounds/connect.jpg');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.strengths-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .strength {
     text-align: center;
     width: 160px;
