@@ -54,7 +54,25 @@ html {
     padding: 1rem;
 }
 
-// Background images
+#profile {
+    text-align: center;
+}
+
+.strength {
+    text-align: center;
+    width: 200px;
+    padding: 0.75rem;
+    display: inline-block;
+}
+.strength i {
+    color: $color1;
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+
+// images
 
 .hero-img {
     height: 100vh;
@@ -67,4 +85,15 @@ html {
 #home {
     background-image: url('../images/backgrounds/desk.jpg');
     background-position: center 60%;
+}
+
+#portrait,
+.profile-list {
+    padding: 1.5rem;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.profile-list p {
+    margin-bottom: 1.75rem;
 }

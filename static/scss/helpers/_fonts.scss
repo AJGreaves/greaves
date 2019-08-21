@@ -18,7 +18,8 @@ body {
 
 .navbar,
 button,
-#skills h3 {
+#skills h3,
+.strength p {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
@@ -30,4 +31,8 @@ button,
 
 h2 {
     font-size: 3rem;
+}
+
+h4.heading {
+    font-size: 2rem;
 }
