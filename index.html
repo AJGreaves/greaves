@@ -75,69 +75,112 @@
         <div class="row no-gutters">
             <div class="col-12 full-height vertical-center-contents">
                 <div class="container mx-auto">
-                    <div class="row no-gutters">
+                    <div class="row no-gutters justify-content-around">
+
                         <div class="col-12">
                             <h2 class="heading">Skills</h2>
                         </div>
-                        <div class="col-12">
+
+                        <div class="col-12 skill-set">
                             <h3>Languages</h3>
-                            <div class="row justify-content-center">
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 languages">HTML</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 languages">CSS</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 languages">JavaScript</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 languages">Python</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 languages">SQL</div>
+                            <!-- Skill container means when screen size smaller they 
+                            stack 3 on top 2 on bottom looks better than 4/1 -->
+                            <div class="skill-container">
+                                <div class="languages">
+                                    <img src="static/images/icons/html.png" alt="HTML" class="languages-icon">
+                                    <p>HTML</p>
+                                </div>
+                                <div class="languages">
+                                    <img src="static/images/icons/css.png" alt="CSS" class="languages-icon">
+                                    <p>CSS</p>
+                                </div>
+                                <div class="languages">
+                                    <img src="static/images/icons/javascript.png" alt="JavaScript"
+                                        class="languages-icon">
+                                    <p>JavaScript</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="languages">
+                                    <img src="static/images/icons/python.png" alt="Python" class="languages-icon">
+                                    <p>Python</p>
+                                </div>
+                                <div class="languages">
+                                    <img src="static/images/icons/sql.png" alt="CSS" class="languages-icon">
+                                    <p>SQL</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12">
+
+                        <div class="col-12 skill-set">
                             <h3>Tools</h3>
-                            <div class="row justify-content-center">
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                            <div class="skill-container">
+                                <div class="tools-box">
                                     <img src="static/images/icons/vscode.png" alt="Visual Studio Code"
                                         class="tool-icon">
                                     <p>VSCode</p>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                                <div class="tools-box">
                                     <img src="static/images/icons/git.png" alt="Git" class="tool-icon">
                                     <p>Git</p>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                                <div class="tools-box">
                                     <img src="static/images/icons/mysql.png" alt="MySQL" class="tool-icon">
                                     <p>MySQL</p>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                                <div class="tools-box">
                                     <img src="static/images/icons/nosql.png" alt="NoSQL" class="tool-icon">
                                     <p>NoSQL</p>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                            </div>
+                            <div class="skill-container">
+                                <div class="tools-box">
                                     <img src="static/images/icons/mongodb.png" alt="MongoDB" class="tool-icon">
                                     <p>MongoDB</p>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                                <div class="tools-box">
                                     <img src="static/images/icons/heroku.png" alt="Heroku" class="tool-icon">
                                     <p>Heroku</p>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                                <div class="tools-box">
                                     <img src="static/images/icons/photoshop.png" alt="Photoshop" class="tool-icon">
                                     <p>Photoshop</p>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 tools-box">
+                                <div class="tools-box">
                                     <img src="static/images/icons/slack.png" alt="Slack" class="tool-icon">
                                     <p>Slack</p>
                                 </div>
                             </div>
-
                         </div>
-                        <div class="col-12">
-                            <h3>Frameworks & libraries</h3>
-                            <div class="row justify-content-center">
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 frameworks-box">Bootstrap</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 frameworks-box">jQuery</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 frameworks-box">Flask</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 frameworks-box">Django</div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-2 frameworks-box">WordPress</div>
-                            </div>
 
+                        <div class="col-12 skill-set">
+                            <h3>Frameworks & libraries</h3>
+                            <div class="skill-container">
+                                <div class="frameworks-box">
+                                    <img src="static/images/icons/django.png" alt="Django" class="frameworks-icon">
+                                    <p>Django</p>
+                                </div>
+                                <div class="frameworks-box">
+                                    <img src="static/images/icons/bootstrap.png" alt="Bootstrap"
+                                        class="frameworks-icon">
+                                    <p>Bootstrap</p>
+                                </div>
+                                <div class="frameworks-box">
+                                    <img src="static/images/icons/flask.png" alt="Flask" class="frameworks-icon">
+                                    <p>Flask</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="frameworks-box">
+                                    <img src="static/images/icons/jquery.png" alt="jQuery" class="frameworks-icon">
+                                    <p>jQuery</p>
+                                </div>
+                                <div class="frameworks-box">
+                                    <img src="static/images/icons/wordpress.png" alt="WordPress"
+                                        class="frameworks-icon">
+                                    <p>WordPress</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

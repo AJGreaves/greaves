@@ -13,6 +13,7 @@ html {
 
 .full-height {
     min-height: 100vh;
+    padding: 3rem 0;
 }
 
 .vertical-center-contents {
@@ -36,6 +37,21 @@ html {
     text-align: center;
     background-color: #000;
     color: #fff;
+}
+
+.languages,
+.frameworks-box,
+.tools-box {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.skill-container {
+    display: inline-block;
+}
+
+.skill-set {
+    padding: 1rem;
 }
 
 // Background images

@@ -16,8 +16,17 @@
     height: 50px;
 }
 
+.frameworks-icon,
+.languages-icon {
+    height: 75px;
+}
+
 .tool-icon {
-    height: 100px;
-    opacity: 0.8;
-    margin: 5px;
+    height: 65px;
+}
+
+.frameworks-icon,
+.languages-icon,
+.tool-icon {
+    margin-bottom: 0.5rem;
 }

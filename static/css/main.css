@@ -26,7 +26,7 @@ button,
 }
 
 #skills h3 {
-  color: #438796;
+  color: #77ccdf;
 }
 
 h2 {
@@ -51,10 +51,19 @@ h2 {
   height: 50px;
 }
 
+.frameworks-icon,
+.languages-icon {
+  height: 75px;
+}
+
 .tool-icon {
-  height: 100px;
-  opacity: 0.8;
-  margin: 5px;
+  height: 65px;
+}
+
+.frameworks-icon,
+.languages-icon,
+.tool-icon {
+  margin-bottom: 0.5rem;
 }
 
 .container,
@@ -70,6 +79,7 @@ html {
 
 .full-height {
   min-height: 100vh;
+  padding: 3rem 0;
 }
 
 .vertical-center-contents {
@@ -91,6 +101,21 @@ html {
   text-align: center;
   background-color: #000;
   color: #fff;
+}
+
+.languages,
+.frameworks-box,
+.tools-box {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.skill-container {
+  display: inline-block;
+}
+
+.skill-set {
+  padding: 1rem;
 }
 
 .hero-img {
