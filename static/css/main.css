@@ -3,18 +3,35 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.main-heading {
+  font-family: "Vidaloka", serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.sub-heading {
+  text-align: center;
+}
+
+.navbar,
+button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
 #download-cv-button {
-  margin-left: 2rem;
-  background-color: #77ccdf;
-  border-color: #fff;
-  color: #fff;
+  margin-left: 0.5rem;
+  color: #77ccdf;
+  border-color: #77ccdf;
+  -webkit-transition: 0.2s all ease-in-out 0.3s;
+  transition: 0.2s all ease-in-out 0.3s;
 }
 
 #download-cv-button:hover {
-  margin-left: 2rem;
-  color: #77ccdf;
-  border-color: #77ccdf;
-  background-color: #fff;
+  color: #fff;
+  border-color: #fff;
+  background-color: #77ccdf;
 }
 
 #logo {
@@ -30,5 +47,49 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.vertical-center-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.hero-img {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#homeHero {
+  background-image: url("../images/backgrounds/desk.jpg");
+  background-position: center 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    text-align: left;
+    margin-left: 5rem;
+    font-size: 5rem;
+  }
+  .sub-heading {
+    text-align: left;
+    margin-left: 5rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

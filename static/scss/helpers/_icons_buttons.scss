@@ -1,15 +1,15 @@
 #download-cv-button {
-    margin-left: 2rem;
-    background-color: $color1;
-    border-color: #fff;
-    color: #fff;
+    margin-left: 0.5rem;
+    color: $color1;
+    border-color: $color1;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
 }
 
 #download-cv-button:hover {
-    margin-left: 2rem;
-    color: $color1;
-    border-color: $color1;
-    background-color: #fff;
+    color: #fff;
+    border-color: #fff;
+    background-color: $color1;
 }
 
 #logo {
