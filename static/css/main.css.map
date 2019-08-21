@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/helpers/_variables.scss",
+        "../scss/helpers/_fonts.scss",
+        "../scss/helpers/_icons.scss",
+        "../scss/pages/_index.scss",
+        "../scss/pages/_mediaqueries.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
