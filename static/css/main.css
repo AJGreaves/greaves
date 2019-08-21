@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Roboto|Vidaloka&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#download-cv-button {
+  margin-left: 2rem;
+}
+
+.container,
+.container-fluid,
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=main.css.map */

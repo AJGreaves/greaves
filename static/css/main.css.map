@@ -1,11 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,2EAAI;ACAZ,AAAA,IAAI,CAAC;EACD,WAAW,EDEH,QAAQ,EAAE,UAAU;CCD/B;;ACFD,AAAA,mBAAmB,CAAC;EAChB,WAAW,EAAE,IAAI;CACpB;;ACAD,AAAA,UAAU;AACV,gBAAgB;AAChB,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,eAAe,EAAE,MAAM;CAC1B",
     "sources": [
         "../scss/main.scss",
         "../scss/helpers/_variables.scss",
         "../scss/helpers/_fonts.scss",
-        "../scss/helpers/_icons.scss",
+        "../scss/helpers/_icons_buttons.scss",
         "../scss/pages/_index.scss",
         "../scss/pages/_mediaqueries.scss"
     ],
