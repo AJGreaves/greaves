@@ -30,6 +30,14 @@ html {
     color: #fff;
 }
 
+// skills
+
+#skills {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
 // Background images
 
 .hero-img {
@@ -40,7 +48,7 @@ html {
     background-attachment: fixed;
 }
 
-#homeHero {
+#home {
     background-image: url('../images/backgrounds/desk.jpg');
     background-position: center 60%;
 }

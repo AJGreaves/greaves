@@ -12,9 +12,22 @@ body {
     text-align: center;
 }
 
+.heading {
+    font-family: $heading;
+}
+
 .navbar,
-button {
+button,
+#skills h3 {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
+}
+
+#skills h3 {
+    color: $color1-darker;
+}
+
+h2 {
+    font-size: 3rem;
 }

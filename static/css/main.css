@@ -13,11 +13,24 @@ body {
   text-align: center;
 }
 
+.heading {
+  font-family: "Vidaloka", serif;
+}
+
 .navbar,
-button {
+button,
+#skills h3 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
+}
+
+#skills h3 {
+  color: #438796;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 #download-cv-button {
@@ -68,6 +81,12 @@ html {
   color: #fff;
 }
 
+#skills {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
 .hero-img {
   height: 100vh;
   background-repeat: no-repeat;
@@ -76,7 +95,7 @@ html {
   background-attachment: fixed;
 }
 
-#homeHero {
+#home {
   background-image: url("../images/backgrounds/desk.jpg");
   background-position: center 60%;
 }
