@@ -5,6 +5,20 @@ body {
 
 #download-cv-button {
   margin-left: 2rem;
+  background-color: #77ccdf;
+  border-color: #fff;
+  color: #fff;
+}
+
+#download-cv-button:hover {
+  margin-left: 2rem;
+  color: #77ccdf;
+  border-color: #77ccdf;
+  background-color: #fff;
+}
+
+#logo {
+  height: 50px;
 }
 
 .container,

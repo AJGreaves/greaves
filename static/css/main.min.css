@@ -1,2 +1,2 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Vidaloka&display=swap");body{font-family:"Roboto",sans-serif}#download-cv-button{margin-left:2rem}.container,.container-fluid,.row{margin:0;padding:0}html{scroll-behavior:smooth}
+@import url("https://fonts.googleapis.com/css?family=Roboto|Vidaloka&display=swap");body{font-family:"Roboto",sans-serif}#download-cv-button{margin-left:2rem;background-color:#77ccdf;border-color:#fff;color:#fff}#download-cv-button:hover{margin-left:2rem;color:#77ccdf;border-color:#77ccdf;background-color:#fff}#logo{height:50px}.container,.container-fluid,.row{margin:0;padding:0}html{scroll-behavior:smooth}
 /*# sourceMappingURL=main.min.css.map */
