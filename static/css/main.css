@@ -51,6 +51,12 @@ h2 {
   height: 50px;
 }
 
+.tool-icon {
+  height: 100px;
+  opacity: 0.8;
+  margin: 5px;
+}
+
 .container,
 .container-fluid,
 .row {
