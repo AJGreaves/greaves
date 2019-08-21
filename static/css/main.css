@@ -19,11 +19,16 @@ body {
 
 .navbar,
 button,
-#skills h3,
-.strength p {
+#skills h3 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
+}
+
+.strength p {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 #skills h3 {
@@ -231,7 +236,7 @@ html {
 
 .strength {
   text-align: center;
-  width: 200px;
+  width: 160px;
   padding: 0.75rem;
   display: inline-block;
 }
