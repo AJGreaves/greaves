@@ -267,3 +267,12 @@ html {
     list-style: square;
     padding-bottom: 0.5rem;
 }
+
+.navbar {
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+.navbar.invisible {
+    opacity: 0;
+}
