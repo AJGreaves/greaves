@@ -25,3 +25,13 @@ $(function () {
     }
 
 });
+
+$('.work-history-btn').click(function() {
+    let text = $(this).text();
+    if (text ==  'Close') {
+        $(this).text('Read More')
+    } else {
+        $(this).text('Close')
+    };
+    return;
+})
