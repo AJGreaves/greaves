@@ -80,6 +80,10 @@ a:hover {
   text-decoration: none;
 }
 
+.font-italic {
+  margin-top: 0.4rem;
+}
+
 #download-cv-button {
   margin-left: 0.5rem;
   color: #77ccdf;
