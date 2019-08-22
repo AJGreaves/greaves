@@ -26,6 +26,7 @@ $(function () {
 
 });
 
+// Changes readmore button text to close when element is open.
 $('.work-history-btn').click(function() {
     let text = $(this).text();
     if (text ==  'Close') {

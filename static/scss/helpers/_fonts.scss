@@ -26,14 +26,16 @@ button,
     letter-spacing: 0.15rem;
 }
 
-.strength p {
+.strength p,
+.event-subheading {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: #fff;
 }
 
-#skills h3 {
+#skills h3,
+.event-subheading {
     color: $color1;
 }
 
@@ -59,4 +61,20 @@ h4.heading {
     color: #fff;
     text-shadow: $text-shadow;
     font-size: 2.5rem;
+}
+
+.timeline p {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+a {
+    color: $color1;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+a:hover {
+    color: $color1-darker;
+    text-decoration: none;
 }
