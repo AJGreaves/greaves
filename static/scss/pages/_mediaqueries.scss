@@ -29,4 +29,12 @@
     .project-box p {
         padding-top: 3.5rem;
     }
+
+    .event p,
+    .event button {
+        display: inline-block;
+    }
+    .timeline .cta-btn.dark-btn {
+        float: right;
+    }
 }
