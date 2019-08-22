@@ -28,11 +28,25 @@ button,
 }
 
 .strength p,
-.event-subheading {
+.event-subheading,
+label,
+.contact-icon p {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #fff;
+}
+
+label {
+  color: #438796;
+}
+
+.contact-icon p {
+  color: #000;
+}
+
+.contact-icon p {
+  font-size: 0.8rem;
 }
 
 #skills h3,
@@ -248,7 +262,7 @@ i {
 }
 
 .cta-btn.dark-btn:hover,
-.cta-btn.light-btn:hover {
+.cta-btn.lighter-btn:hover {
   background-color: #5eacbea6;
   color: #fff;
 }
@@ -258,6 +272,12 @@ i {
   width: 142px;
   font-size: 0.8rem;
   margin: 0;
+}
+
+.cta-btn.lighter-btn {
+  border: 1px solid #77ccdf;
+  color: #77ccdf;
+  margin-top: 0.5rem;
 }
 
 .container,
@@ -313,7 +333,8 @@ html {
 }
 
 .profile-text-box,
-#portrait {
+#portrait,
+.contact-box {
   padding: 1.5rem;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -329,18 +350,28 @@ html {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.strength {
+.strength,
+.contact-icon {
   text-align: center;
   width: 160px;
   padding: 0.75rem;
   display: inline-block;
 }
 
-.strength i {
+.strength i,
+.contact-icon i {
   color: #77ccdf;
   display: block;
   font-size: 2rem;
   padding-bottom: 0.5rem;
+}
+
+.contact-icon i {
+  color: #438796;
+}
+
+.contact-icon {
+  width: 130px;
 }
 
 .project-box {

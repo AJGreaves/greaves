@@ -27,11 +27,25 @@ button,
 }
 
 .strength p,
-.event-subheading {
+.event-subheading,
+label,
+.contact-icon p {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: #fff;
+}
+
+label {
+    color: $color1-darker;
+}
+
+.contact-icon p {
+    color: #000;
+}
+
+.contact-icon p {
+    font-size: 0.8rem;
 }
 
 #skills h3,

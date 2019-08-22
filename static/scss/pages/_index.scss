@@ -57,7 +57,8 @@ html {
 // profile
 
 .profile-text-box,
-#portrait {
+#portrait,
+.contact-box {
     padding: 1.5rem;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -73,18 +74,28 @@ html {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.strength {
+.strength,
+.contact-icon {
     text-align: center;
     width: 160px;
     padding: 0.75rem;
     display: inline-block;
 }
 
-.strength i {
+.strength i,
+.contact-icon i {
     color: $color1;
     display: block;
     font-size: 2rem;
     padding-bottom: 0.5rem;
+}
+
+.contact-icon i {
+    color: $color1-darker;
+}
+
+.contact-icon {
+    width: 130px;
 }
 
 

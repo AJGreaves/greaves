@@ -166,7 +166,7 @@ i {
 }
 
 .cta-btn.dark-btn:hover,
-.cta-btn.light-btn:hover {
+.cta-btn.lighter-btn:hover {
     background-color: #5eacbea6;
     color: #fff;
 }
@@ -176,4 +176,10 @@ i {
     width: 142px;
     font-size: 0.8rem;
     margin: 0;
+}
+
+.cta-btn.lighter-btn {
+    border: 1px solid $color1;
+    color: #77ccdf;
+    margin-top: 0.5rem;
 }
