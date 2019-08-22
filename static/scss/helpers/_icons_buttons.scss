@@ -138,13 +138,35 @@ td {
 }
 
 .fa-quote-right {
-    padding-left: 0.75rem; 
+    padding-left: 0.75rem;
 }
 
 .fa-quote-left {
-    padding-right: 0.75rem; 
+    padding-right: 0.75rem;
 }
 
 i {
     text-shadow: $text-shadow;
+}
+
+.cta-btn {
+    background-color: transparent;
+    height: 50px;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0 1.5rem;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+.cta-btn.dark-btn {
+    border: 1px solid #fff;
+    color: #77ccdf;
+}
+
+.cta-btn.dark-btn:hover,
+.cta-btn.light-btn:hover {
+    background-color: #5eacbea6;
+    color: #fff;
 }

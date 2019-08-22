@@ -62,7 +62,7 @@ html {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.7);
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 #strengths {
@@ -79,6 +79,7 @@ html {
     padding: 0.75rem;
     display: inline-block;
 }
+
 .strength i {
     color: $color1;
     display: block;
@@ -89,6 +90,32 @@ html {
 
 // portfolio
 
+.project-box {
+    margin: 1.5rem;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.project-box-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project-box p {
+    padding-top: 4rem;
+    font-size: 1rem;
+    font-family: $main-text;
+}
+
+.project-box h4 {
+    font-family: $heading;
+}
 
 // images
 
@@ -112,7 +139,27 @@ html {
 
 #portfolio {
     background-image: url('../images/backgrounds/notepad.jpg');
-    
+
+}
+
+#project1 {
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
+    background-position: 100% center;
+}
+
+#project2 {
+    background-image: url("https://i.ibb.co/y8bx9BL/kidswim.jpg");
+    background-position: center;
+}
+
+#project3 {
+    background-image: url("https://images.slideplayer.com/26/8705799/slides/slide_2.jpg");
+    background-position: center;
+}
+
+#project4 {
+    background-image: url("https://i.ibb.co/4VFzmpG/playing.png");
+    background-position: center;
 }
 
 .light-overlay {

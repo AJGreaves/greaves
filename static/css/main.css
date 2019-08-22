@@ -209,6 +209,28 @@ i {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
 }
 
+.cta-btn {
+  background-color: transparent;
+  height: 50px;
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0 1.5rem;
+  -webkit-transition: 0.2s all ease-in-out 0.3s;
+  transition: 0.2s all ease-in-out 0.3s;
+}
+
+.cta-btn.dark-btn {
+  border: 1px solid #fff;
+  color: #77ccdf;
+}
+
+.cta-btn.dark-btn:hover,
+.cta-btn.light-btn:hover {
+  background-color: #5eacbea6;
+  color: #fff;
+}
+
 .container,
 .container-fluid,
 .row {
@@ -292,6 +314,33 @@ html {
   padding-bottom: 0.5rem;
 }
 
+.project-box {
+  margin: 1.5rem;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.project-box-overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project-box p {
+  padding-top: 4rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.project-box h4 {
+  font-family: "Vidaloka", serif;
+}
+
 .hero-img {
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -312,6 +361,26 @@ html {
 
 #portfolio {
   background-image: url("../images/backgrounds/notepad.jpg");
+}
+
+#project1 {
+  background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
+  background-position: 100% center;
+}
+
+#project2 {
+  background-image: url("https://i.ibb.co/y8bx9BL/kidswim.jpg");
+  background-position: center;
+}
+
+#project3 {
+  background-image: url("https://images.slideplayer.com/26/8705799/slides/slide_2.jpg");
+  background-position: center;
+}
+
+#project4 {
+  background-image: url("https://i.ibb.co/4VFzmpG/playing.png");
+  background-position: center;
 }
 
 .light-overlay {
@@ -341,6 +410,18 @@ html {
   .sub-heading {
     text-align: left;
     margin-left: 5rem;
+  }
+  /* Portfolio boxes */
+  .project-box-overlay {
+    opacity: 0;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+  }
+  .project-box-overlay:hover {
+    opacity: 1;
+  }
+  .project-box-overlay button {
+    height: 40px;
   }
 }
 /*# sourceMappingURL=main.css.map */
