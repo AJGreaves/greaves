@@ -5,31 +5,22 @@
         margin-left: 5rem;
         font-size: 5rem;
     }
-
     .sub-heading {
         text-align: left;
         margin-left: 5rem;
     }
-
     /* Portfolio boxes */
     .project-box-overlay {
         opacity: 0;
         -webkit-transition: 0.2s all ease-in-out 0.3s;
         transition: 0.2s all ease-in-out 0.3s;
     }
-
     .project-box-overlay:hover {
         opacity: 1;
     }
-
     .project-box-overlay button {
         height: 40px;
     }
-
-    .project-box p {
-        padding-top: 3.5rem;
-    }
-
     .event p,
     .event button {
         display: inline-block;

@@ -254,11 +254,19 @@ i {
   padding: 0 1.5rem;
   -webkit-transition: 0.2s all ease-in-out 0.3s;
   transition: 0.2s all ease-in-out 0.3s;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
 }
 
 .cta-btn.dark-btn {
   border: 1px solid #fff;
   color: #77ccdf;
+  padding-top: 0.7rem;
+}
+
+button.cta-btn.dark-btn {
+  padding-top: 0;
 }
 
 .cta-btn.dark-btn:hover,
@@ -577,9 +585,6 @@ html {
   }
   .project-box-overlay button {
     height: 40px;
-  }
-  .project-box p {
-    padding-top: 3.5rem;
   }
   .event p,
   .event button {
