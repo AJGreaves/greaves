@@ -108,7 +108,7 @@ html {
 }
 
 .project-box p {
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size: 1rem;
     font-family: $main-text;
 }
@@ -138,8 +138,8 @@ html {
 }
 
 #portfolio {
-    background-image: url('../images/backgrounds/notepad.jpg');
-
+    background-image: url('../images/backgrounds/table.png');
+    background-position: 100% center;
 }
 
 #project1 {

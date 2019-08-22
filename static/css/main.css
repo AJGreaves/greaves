@@ -332,7 +332,7 @@ html {
 }
 
 .project-box p {
-  padding-top: 4rem;
+  padding-top: 2rem;
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
 }
@@ -360,7 +360,8 @@ html {
 }
 
 #portfolio {
-  background-image: url("../images/backgrounds/notepad.jpg");
+  background-image: url("../images/backgrounds/table.png");
+  background-position: 100% center;
 }
 
 #project1 {
@@ -422,6 +423,9 @@ html {
   }
   .project-box-overlay button {
     height: 40px;
+  }
+  .project-box p {
+    padding-top: 3.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
