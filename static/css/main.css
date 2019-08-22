@@ -231,6 +231,11 @@ i {
   color: #fff;
 }
 
+.timeline .cta-btn.dark-btn {
+  height: 35px;
+  font-size: 0.8rem;
+}
+
 .container,
 .container-fluid,
 .row {
@@ -428,13 +433,56 @@ html {
   list-style: none;
   text-align: left;
   font-weight: 100;
-  max-width: 30%;
+  max-width: 100%;
+  padding-right: 0;
 }
 
 .timeline h3 {
   font-family: "Vidaloka", serif;
   font-weight: 400;
   font-size: 1.4em;
+}
+
+.timeline .event {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -160px;
+  color: rgba(255, 255, 255, 0.4);
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.8em;
+  min-width: 90px;
+}
+
+.timeline .event:after {
+  -webkit-box-shadow: 0 0 0 4px #77ccdf;
+  box-shadow: 0 0 0 4px #77ccdf;
+  left: -57.85px;
+  background: #000;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
 }
 
 @media screen and (min-width: 768px) {
