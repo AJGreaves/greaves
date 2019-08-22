@@ -48,10 +48,12 @@
                     <a class="nav-link" href="#work-history">Work History</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <form class="form-inline">
-                    <button id="download-cv-button" class="btn btn-sm" type="button">Download CV</button>
+                    <a href="static/pdf/a_greaves_cv.pdf" download>
+                        <button id="download-cv-button" class="btn btn-sm" type="button">Download CV</button>
+                    </a>
                 </form>
             </ul>
         </div>
@@ -258,7 +260,7 @@
                             <h2 class="heading">Profile</h2>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <img src="static/images/portrait-placeholder.png" alt="placeholder portrait" id="portrait">
+                            <img src="static/images/portrait.jpg" alt="placeholder portrait" id="portrait">
                         </div>
 
                         <div class="col-12 col-lg-6 text-left px-4 profile-list vertical-center-contents">
@@ -596,16 +598,21 @@
                             <div class="text-center">
                                 <h3 class="heading h4 my-5 d-md-none">Other ways to connect with me</h3>
                                 <div class="contact-icon">
+                                        <a href="https://github.com/AJGreaves" target="_blank">
                                     <i class="fab fa-github-alt"></i>
-                                    <p>GitHub</p>
+                                    <p>GitHub</p></a>
                                 </div>
                                 <div class="contact-icon">
+                                    <a href="https://www.linkedin.com/in/anna-greaves/" target="_blank">
                                     <i class="fab fa-linkedin-in"></i>
-                                    <p>LinkedIn</p>
+                                    <p>LinkedIn</p></a>
                                 </div>
                                 <div class="contact-icon">
-                                    <i class="fas fa-cloud-download-alt"></i>
-                                    <p>Download CV</p>
+                                    <!-- Update cv with insiteful email address -->
+                                    <a href="static/pdf/a_greaves_cv.pdf" download>
+                                        <i class="fas fa-cloud-download-alt"></i>
+                                        <p>Download CV</p>
+                                    </a>
                                 </div>
                                 <div class="contact-icon">
                                     <i class="far fa-paper-plane"></i>
