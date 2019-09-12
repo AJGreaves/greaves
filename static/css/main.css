@@ -472,6 +472,10 @@ html {
   margin-bottom: 1.75rem;
 }
 
+.bg-off-white {
+  background-color: #f0f0f0;
+}
+
 #work-history {
   background-color: #000;
   color: #fff;
